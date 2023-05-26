@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Encriptador</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Alkatra:wght@500&family=IBM+Plex+Mono:wght@100;200&family=Roboto+Mono:wght@100&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/styles.css">
+
+</head>
+
+<body>
+  <header>
+    <img class="logo" src="/img/logo.svg" alt="logo de alura">
+  </header>
+  <main>
+    <section>
+      <textarea class="text-area" cols="30" rows="10" placeholder="Ingrese el texto aquí"></textarea>
+      <div>
+        <h6 class="informacion">Solo letras minusculas y sin acento</h6>
+      </div>
+      <div class="botones">
+        <button class="btn-encriptar" onclick="btnEncriptar()">Encriptar</button>
+        <button class="btn-desencriptar" onclick="btnDesencriptar()">Desencriptar</button>
+      </div>
+    </section>
+    <section>
+      <textarea class="mensaje" cols="20" rows="10"></textarea>
+      <div>
+        <button class="copiar" onclick="btnCopiar()">Copiar</button>
+      </div>
+    </section>
+
+  </main>
+  <script src="script.js"></script>
+  <footer>
+    <p class="coyrigth">Gabriela Romero</p>
+</footer>
+</body>
+
+</html>
